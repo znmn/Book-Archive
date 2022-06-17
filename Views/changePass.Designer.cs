@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(changePass));
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.btnChange = new System.Windows.Forms.Button();
             this.tbPass = new System.Windows.Forms.TextBox();
@@ -113,6 +114,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(550, 331);
             this.Controls.Add(this.tableLayoutPanel1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MinimumSize = new System.Drawing.Size(550, 331);
             this.Name = "changePass";
             this.Text = "Ganti Password Admin";

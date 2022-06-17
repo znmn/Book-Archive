@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(bookView));
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.btnDone = new System.Windows.Forms.Button();
             this.pdfReader = new System.Windows.Forms.WebBrowser();
@@ -81,6 +82,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(731, 511);
             this.Controls.Add(this.tableLayoutPanel1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MinimumSize = new System.Drawing.Size(731, 511);
             this.Name = "bookView";
             this.Text = "Baca Buku";

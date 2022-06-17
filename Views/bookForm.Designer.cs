@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(bookForm));
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.btnSave = new System.Windows.Forms.Button();
@@ -94,7 +95,7 @@
             // 
             // btnCancel
             // 
-            this.btnCancel.BackColor = System.Drawing.Color.Yellow;
+            this.btnCancel.BackColor = System.Drawing.Color.Red;
             this.btnCancel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btnCancel.Location = new System.Drawing.Point(3, 3);
             this.btnCancel.Name = "btnCancel";
@@ -269,6 +270,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(489, 398);
             this.Controls.Add(this.tableLayoutPanel1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MinimumSize = new System.Drawing.Size(489, 398);
             this.Name = "bookForm";
             this.Text = "Tambah Buku";
