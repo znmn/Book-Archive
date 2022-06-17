@@ -57,6 +57,11 @@ namespace BookArchive
             btnBack.Text = "Kembali ke Menu Utama";
             this.isAdmin = false;
         }
+        public int? getIdAdmin()
+        {
+            return this.idAdmin;
+        }
+
         
         private void btnLogout_Click(object sender, EventArgs e)
         {
@@ -149,7 +154,7 @@ namespace BookArchive
         {
             if (this.isAdmin)
             {
-                frmPass = new changePass(idAdmin);
+                frmPass = new changePass();
                 frmPass.setParent(this);
                 frmPass.ShowDialog(this);
             }
@@ -159,4 +164,5 @@ namespace BookArchive
             }
         }
     }
+    // Github : https://github.com/znmn/
 }

@@ -15,22 +15,17 @@ namespace BookArchive
     public partial class changePass : MetroForm
     {
         Admin objAdmin = new Admin();
-        int admin_id;
+        int idAdmin;
         listBooks objlstBooks;
         public changePass()
         {
             InitializeComponent();
         }
         
-        public changePass(int? admin_id)
-        {
-            InitializeComponent();
-            this.admin_id = Convert.ToInt32(admin_id);
-        }
-        
         public void setParent(listBooks p_parent)
         {
             objlstBooks = p_parent;
+            this.idAdmin = Convert.ToInt32(objlstBooks.getIdAdmin());
         }
 
         private void btnChange_Click(object sender, EventArgs e)
@@ -40,7 +35,7 @@ namespace BookArchive
                 MessageBox.Show("Tolong Isi Password Baru", "Empty Password", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
 
-            }else if(objAdmin.changePassword(admin_id, tbPass.Text))
+            }else if(objAdmin.changePassword(idAdmin, tbPass.Text))
             {
                 MessageBox.Show("Success Change Password", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }

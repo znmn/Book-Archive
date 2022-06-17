@@ -110,7 +110,7 @@
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 76F));
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 43.93939F));
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 56.06061F));
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 38F));
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 39F));
             this.tableLayoutPanel3.Controls.Add(this.lblIsbn, 1, 1);
             this.tableLayoutPanel3.Controls.Add(this.lblTitle, 1, 2);
             this.tableLayoutPanel3.Controls.Add(this.lblAuthor, 1, 3);
@@ -204,7 +204,7 @@
             this.tbIsbn.Location = new System.Drawing.Point(223, 23);
             this.tbIsbn.MaxLength = 20;
             this.tbIsbn.Name = "tbIsbn";
-            this.tbIsbn.Size = new System.Drawing.Size(178, 38);
+            this.tbIsbn.Size = new System.Drawing.Size(177, 38);
             this.tbIsbn.TabIndex = 5;
             // 
             // tbTitle
@@ -214,7 +214,7 @@
             this.tbTitle.Location = new System.Drawing.Point(223, 68);
             this.tbTitle.MaxLength = 100;
             this.tbTitle.Name = "tbTitle";
-            this.tbTitle.Size = new System.Drawing.Size(178, 38);
+            this.tbTitle.Size = new System.Drawing.Size(177, 38);
             this.tbTitle.TabIndex = 6;
             // 
             // tbAuthor
@@ -224,7 +224,7 @@
             this.tbAuthor.Location = new System.Drawing.Point(223, 113);
             this.tbAuthor.MaxLength = 100;
             this.tbAuthor.Name = "tbAuthor";
-            this.tbAuthor.Size = new System.Drawing.Size(178, 38);
+            this.tbAuthor.Size = new System.Drawing.Size(177, 38);
             this.tbAuthor.TabIndex = 7;
             // 
             // tbYear
@@ -234,7 +234,7 @@
             this.tbYear.Location = new System.Drawing.Point(223, 158);
             this.tbYear.MaxLength = 4;
             this.tbYear.Name = "tbYear";
-            this.tbYear.Size = new System.Drawing.Size(178, 38);
+            this.tbYear.Size = new System.Drawing.Size(177, 38);
             this.tbYear.TabIndex = 8;
             // 
             // tbPath
@@ -244,7 +244,7 @@
             this.tbPath.Location = new System.Drawing.Point(223, 203);
             this.tbPath.Name = "tbPath";
             this.tbPath.ReadOnly = true;
-            this.tbPath.Size = new System.Drawing.Size(178, 38);
+            this.tbPath.Size = new System.Drawing.Size(177, 38);
             this.tbPath.TabIndex = 9;
             // 
             // btnSelect
