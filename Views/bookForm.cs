@@ -18,6 +18,7 @@ namespace BookArchive
         bool isAdd = true;
         listBooks objlstBooks;
         string startPath;
+        string endPath;
 
         public bookForm()
         {
@@ -67,7 +68,7 @@ namespace BookArchive
                 if (isAdd)
                 {
                     CopyFile(pdfPath);
-                    objlstBooks.addBook(tbIsbn.Text, tbTitle.Text, tbAuthor.Text, tbYear.Text, tbPath.Text);
+                    objlstBooks.addBook(tbIsbn.Text, tbTitle.Text, tbAuthor.Text, tbYear.Text, this.endPath);
                 }
                 else
                 {
@@ -78,9 +79,9 @@ namespace BookArchive
                     }
                     else
                     {
-                        tbPath.Text = tbPath.Text.getFileName();
+                        this.endPath = tbPath.Text.getFileName();
                     }
-                    objlstBooks.updateBook(tbIsbn.Text, tbTitle.Text, tbAuthor.Text, tbYear.Text, tbPath.Text);
+                    objlstBooks.updateBook(tbIsbn.Text, tbTitle.Text, tbAuthor.Text, tbYear.Text, this.endPath);
 
                 }
             }
@@ -115,7 +116,7 @@ namespace BookArchive
         private void CopyFile(string[] pdfPath)
         {
             File.Copy(tbPath.Text, pdfPath[1]);
-            tbPath.Text = pdfPath[0];
+            this.endPath = pdfPath[0];
         }
 
         private void numOnly_KeyPress(object sender, KeyPressEventArgs e)
