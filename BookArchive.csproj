@@ -15,7 +15,8 @@
     <Deterministic>true</Deterministic>
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
-    <PublishUrl>publish\</PublishUrl>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>E:\Kuliah\Belajar\C#\New-Project\Publish\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
     <UpdateEnabled>false</UpdateEnabled>
@@ -25,10 +26,13 @@
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
-    <ApplicationRevision>0</ApplicationRevision>
+    <ProductName>Book Archive</ProductName>
+    <PublisherName>Zain Muhaimin</PublisherName>
+    <ApplicationRevision>1</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
-    <IsWebBootstrapper>false</IsWebBootstrapper>
     <UseApplicationTrust>false</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
     <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -52,6 +56,18 @@
   </PropertyGroup>
   <PropertyGroup>
     <ApplicationIcon>icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>1A943386F921C2417CA2BC84BC502369FC3C0C14</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>BookArchive_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
@@ -93,22 +109,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Views\changePass.cs">
+    <Compile Include="Forms\changePass.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Views\changePass.Designer.cs">
+    <Compile Include="Forms\changePass.Designer.cs">
       <DependentUpon>changePass.cs</DependentUpon>
     </Compile>
-    <Compile Include="Views\bookForm.cs">
+    <Compile Include="Forms\bookForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Views\bookForm.Designer.cs">
+    <Compile Include="Forms\bookForm.Designer.cs">
       <DependentUpon>bookForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Views\bookView.cs">
+    <Compile Include="Forms\bookView.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Views\bookView.Designer.cs">
+    <Compile Include="Forms\bookView.Designer.cs">
       <DependentUpon>bookView.cs</DependentUpon>
     </Compile>
     <Compile Include="Helper\FileHelper.cs" />
@@ -137,16 +153,16 @@
     <Compile Include="Helper\SqlDBHelper.cs" />
     <Content Include="icon.ico" />
     <Content Include="Img\book-icon.png" />
-    <EmbeddedResource Include="Views\bookForm.resx">
+    <EmbeddedResource Include="Forms\bookForm.resx">
       <DependentUpon>bookForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Views\bookView.resx">
+    <EmbeddedResource Include="Forms\bookView.resx">
       <DependentUpon>bookView.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\AdminLogin.resx">
       <DependentUpon>AdminLogin.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Views\changePass.resx">
+    <EmbeddedResource Include="Forms\changePass.resx">
       <DependentUpon>changePass.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\listBooks.resx">
@@ -168,6 +184,7 @@
     <Content Include="Database\BookArchive.db">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <None Include="BookArchive_TemporaryKey.pfx" />
     <None Include="Book\example.pdf">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>

@@ -111,7 +111,7 @@
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 76F));
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 43.93939F));
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 56.06061F));
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 41F));
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 42F));
             this.tableLayoutPanel3.Controls.Add(this.lblIsbn, 1, 1);
             this.tableLayoutPanel3.Controls.Add(this.lblTitle, 1, 2);
             this.tableLayoutPanel3.Controls.Add(this.lblAuthor, 1, 3);
@@ -144,7 +144,7 @@
             this.lblIsbn.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblIsbn.Location = new System.Drawing.Point(79, 20);
             this.lblIsbn.Name = "lblIsbn";
-            this.lblIsbn.Size = new System.Drawing.Size(137, 45);
+            this.lblIsbn.Size = new System.Drawing.Size(136, 45);
             this.lblIsbn.TabIndex = 0;
             this.lblIsbn.Text = "ISBN";
             this.lblIsbn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -156,7 +156,7 @@
             this.lblTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTitle.Location = new System.Drawing.Point(79, 65);
             this.lblTitle.Name = "lblTitle";
-            this.lblTitle.Size = new System.Drawing.Size(137, 45);
+            this.lblTitle.Size = new System.Drawing.Size(136, 45);
             this.lblTitle.TabIndex = 1;
             this.lblTitle.Text = "Judul Buku";
             this.lblTitle.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -168,7 +168,7 @@
             this.lblAuthor.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAuthor.Location = new System.Drawing.Point(79, 110);
             this.lblAuthor.Name = "lblAuthor";
-            this.lblAuthor.Size = new System.Drawing.Size(137, 45);
+            this.lblAuthor.Size = new System.Drawing.Size(136, 45);
             this.lblAuthor.TabIndex = 2;
             this.lblAuthor.Text = "Penulis";
             this.lblAuthor.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -180,7 +180,7 @@
             this.lblYear.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblYear.Location = new System.Drawing.Point(79, 155);
             this.lblYear.Name = "lblYear";
-            this.lblYear.Size = new System.Drawing.Size(137, 45);
+            this.lblYear.Size = new System.Drawing.Size(136, 45);
             this.lblYear.TabIndex = 3;
             this.lblYear.Text = "Tahun Terbit";
             this.lblYear.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -193,7 +193,7 @@
             this.lblPath.Location = new System.Drawing.Point(79, 200);
             this.lblPath.Name = "lblPath";
             this.lblPath.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lblPath.Size = new System.Drawing.Size(137, 45);
+            this.lblPath.Size = new System.Drawing.Size(136, 45);
             this.lblPath.TabIndex = 4;
             this.lblPath.Text = "File Buku";
             this.lblPath.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -202,7 +202,7 @@
             // 
             this.tbIsbn.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tbIsbn.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbIsbn.Location = new System.Drawing.Point(222, 23);
+            this.tbIsbn.Location = new System.Drawing.Point(221, 23);
             this.tbIsbn.MaxLength = 20;
             this.tbIsbn.Name = "tbIsbn";
             this.tbIsbn.Size = new System.Drawing.Size(176, 38);
@@ -212,7 +212,7 @@
             // 
             this.tbTitle.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tbTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbTitle.Location = new System.Drawing.Point(222, 68);
+            this.tbTitle.Location = new System.Drawing.Point(221, 68);
             this.tbTitle.MaxLength = 100;
             this.tbTitle.Name = "tbTitle";
             this.tbTitle.Size = new System.Drawing.Size(176, 38);
@@ -222,7 +222,7 @@
             // 
             this.tbAuthor.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tbAuthor.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbAuthor.Location = new System.Drawing.Point(222, 113);
+            this.tbAuthor.Location = new System.Drawing.Point(221, 113);
             this.tbAuthor.MaxLength = 100;
             this.tbAuthor.Name = "tbAuthor";
             this.tbAuthor.Size = new System.Drawing.Size(176, 38);
@@ -232,7 +232,7 @@
             // 
             this.tbYear.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tbYear.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbYear.Location = new System.Drawing.Point(222, 158);
+            this.tbYear.Location = new System.Drawing.Point(221, 158);
             this.tbYear.MaxLength = 4;
             this.tbYear.Name = "tbYear";
             this.tbYear.Size = new System.Drawing.Size(176, 38);
@@ -242,7 +242,7 @@
             // 
             this.tbPath.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tbPath.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbPath.Location = new System.Drawing.Point(222, 203);
+            this.tbPath.Location = new System.Drawing.Point(221, 203);
             this.tbPath.Name = "tbPath";
             this.tbPath.ReadOnly = true;
             this.tbPath.Size = new System.Drawing.Size(176, 38);
