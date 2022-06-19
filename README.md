@@ -14,3 +14,10 @@ Book Archive adalah Aplikasi arsip Buku Sederhana berbasis GUI
 
 - Username : admin
 - Password : buku2022
+
+## Catatan
+
+- Program ini menggunakan SQLite sebagai SQL database engine.
+- Pastikan sudah terinstall Program untuk membaca file pdf, program yang disarankan :
+  - Adobe Acrobat Reader
+  - Nitro Pdf
