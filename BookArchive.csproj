@@ -109,36 +109,36 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Forms\changePass.cs">
+    <Compile Include="Views\Admin\changePass.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\changePass.Designer.cs">
+    <Compile Include="Views\Admin\changePass.Designer.cs">
       <DependentUpon>changePass.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\bookForm.cs">
+    <Compile Include="Views\Book\bookForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\bookForm.Designer.cs">
+    <Compile Include="Views\Book\bookForm.Designer.cs">
       <DependentUpon>bookForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\bookView.cs">
+    <Compile Include="Views\Book\bookView.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\bookView.Designer.cs">
+    <Compile Include="Views\Book\bookView.Designer.cs">
       <DependentUpon>bookView.cs</DependentUpon>
     </Compile>
     <Compile Include="Helper\FileHelper.cs" />
     <Compile Include="Models\Books.cs" />
-    <Compile Include="Views\AdminLogin.cs">
+    <Compile Include="Views\Admin\AdminLogin.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Views\AdminLogin.Designer.cs">
+    <Compile Include="Views\Admin\AdminLogin.Designer.cs">
       <DependentUpon>AdminLogin.cs</DependentUpon>
     </Compile>
-    <Compile Include="Views\listBooks.cs">
+    <Compile Include="Views\Book\listBooks.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Views\listBooks.Designer.cs">
+    <Compile Include="Views\Book\listBooks.Designer.cs">
       <DependentUpon>listBooks.cs</DependentUpon>
     </Compile>
     <Compile Include="InitForm.cs">
@@ -153,19 +153,19 @@
     <Compile Include="Helper\SqlDBHelper.cs" />
     <Content Include="icon.ico" />
     <Content Include="Img\book-icon.png" />
-    <EmbeddedResource Include="Forms\bookForm.resx">
+    <EmbeddedResource Include="Views\Book\bookForm.resx">
       <DependentUpon>bookForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\bookView.resx">
+    <EmbeddedResource Include="Views\Book\bookView.resx">
       <DependentUpon>bookView.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Views\AdminLogin.resx">
+    <EmbeddedResource Include="Views\Admin\AdminLogin.resx">
       <DependentUpon>AdminLogin.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\changePass.resx">
+    <EmbeddedResource Include="Views\Admin\changePass.resx">
       <DependentUpon>changePass.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Views\listBooks.resx">
+    <EmbeddedResource Include="Views\Book\listBooks.resx">
       <DependentUpon>listBooks.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="InitForm.resx">
